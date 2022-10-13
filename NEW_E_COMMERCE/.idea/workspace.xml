@@ -5,31 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6c3e605-bb24-4477-989c-08bb838bbfe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/e_commerce_app/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebPages/P01_register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/testrunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D01_registerStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/e_commerce_app/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/features/F01_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cukes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E_commerce_app/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../E_commerce_app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E_commerce_app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/main/java/com/example/e_commerce_app/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/main/java/com/example/e_commerce_app/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/main/resources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/main/resources/com/example/e_commerce_app/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/main/resources/features/F01_Register.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/test/java/WebPages/P01_register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/test/java/runners/testrunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/test/java/stepDefinitions/D01_registerStepDef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E_commerce_app/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +46,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/E-commerce app/NEW_E_COMMERCE/src/main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/E-commerce app/NEW_E_COMMERCE/src/main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\E-commerce app\NEW_E_COMMERCE\src\main" />

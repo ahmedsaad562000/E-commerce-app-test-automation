@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.489">
-<testcase classname="users could register with new accounts" name="guest user could register with valid data successfully" time="15.334">
-<failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=106.0.5249.119)&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [17ba315768235e9807b290eb222c1023, findElement {using=id, value=register-button}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Ahmed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:4478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4478/devtool..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 17ba315768235e9807b290eb222c1023" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user go to register page..............................................passed
-When user select gender type "M"............................................passed
-And user enter first name "automation" and last name "tester"...............passed
-And user enter date of birth................................................passed
-And user enter email "test@example.com" field...............................passed
-And user fills Password fields "P@ssw0rd" "P@ssw0rd"........................passed
-And user clicks on register button..........................................failed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.128">
+<testcase classname="users could register with new accounts" name="guest user could register with valid data successfully" time="8.962">
+<failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=106.0.5249.119)&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5eeef48b05dcb47d10e29c02bed852b0, clickElement {id=ee8e8806-6182-434b-8b11-964fdd0a897c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Ahmed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:6312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6312/devtool..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (5eeef48b05dcb47d10e29c02bed852b0)] -&gt; id: gender-male]&#10;Session ID: 5eeef48b05dcb47d10e29c02bed852b0" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user go to register page..............................................passed
+When user select gender type "M"............................................failed
+And user enter first name "automation" and last name "tester"...............skipped
+And user enter date of birth................................................skipped
+And user enter email "test@example.com" field...............................skipped
+And user fills Password fields "P@ssw0rd" "P@ssw0rd"........................skipped
+And user clicks on register button..........................................skipped
 Then success message is displayed...........................................skipped
 
 StackTrace:
@@ -17,9 +17,10 @@ from unknown error: web view not found
 Build info: version: '4.5.0', revision: 'fe167b119a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [17ba315768235e9807b290eb222c1023, findElement {using=id, value=register-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Ahmed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:4478}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:4478/devtool..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 17ba315768235e9807b290eb222c1023
+Command: [5eeef48b05dcb47d10e29c02bed852b0, clickElement {id=ee8e8806-6182-434b-8b11-964fdd0a897c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Ahmed\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:6312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:6312/devtool..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5eeef48b05dcb47d10e29c02bed852b0)] -> id: gender-male]
+Session ID: 5eeef48b05dcb47d10e29c02bed852b0
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -31,13 +32,10 @@ Session ID: 17ba315768235e9807b290eb222c1023
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at WebPages.P01_register.reg_btntn(P01_register.java:82)
-	at stepDefinitions.D01_registerStepDef.reg_click(D01_registerStepDef.java:84)
-	at ✽.user clicks on register button(file:///D:/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F01_Register.feature:11)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at stepDefinitions.D01_registerStepDef.select_gender(D01_registerStepDef.java:43)
+	at ✽.user select gender type "M"(file:///D:/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F01_Register.feature:6)
 ]]></failure>
 </testcase>
 </testsuite>
