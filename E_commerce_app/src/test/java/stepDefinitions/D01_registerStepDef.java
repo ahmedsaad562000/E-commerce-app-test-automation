@@ -9,24 +9,23 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.ThreadLocalRandom;
 
 public class D01_registerStepDef {
+
+
     WebDriver driver = null;
     P01_register register = null;
-
-
-    @Before
-    public void open_browser() {
-        String chromepath = System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe";
-
-        System.setProperty("webdriver.chrome.driver", chromepath);
-
-        //2-new object
-        driver = new ChromeDriver(); //acts as mouse and keyboard
+    public D01_registerStepDef()
+    {
+       driver = Hooks.driver;
         register = new P01_register(driver);
+
     }
+
+
 
     @Given("user go to register page")
     public void user_reg_page() throws InterruptedException {
@@ -88,13 +87,11 @@ public class D01_registerStepDef {
 
     @Then("success message is displayed")
     public void msg_check(){
+        SoftAssert soft = new SoftAssert();
+        soft.assertTrue(register.success_msg().getText().contains("Your registration completed"),"Registration failed");
+        soft.assertAll();
+    }
 
-        register.success_msg().getText().contains("Your registration completed");
-    }
-    @After
-    public void close_browser(){
-        driver.quit();
-    }
 
 
 

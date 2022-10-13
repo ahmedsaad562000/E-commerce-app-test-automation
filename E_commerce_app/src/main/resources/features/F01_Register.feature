@@ -1,7 +1,6 @@
-
-@smoke
-Feature: F01_Register | users could register with new accounts
-
+@regression
+Feature: users could register with new accounts
+Background: open_browser
   Scenario: guest user could register with valid data successfully
  Given user go to register page
   When  user select gender type "M"
