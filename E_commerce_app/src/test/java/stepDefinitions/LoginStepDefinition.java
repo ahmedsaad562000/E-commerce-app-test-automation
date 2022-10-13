@@ -31,7 +31,7 @@ public class LoginStepDefinition {
     }
     @And("user navigates to login page")
     public void navigate_to_login_page() throws InterruptedException {
-        driver.navigate().to("https://the-internet.herokuapp.com/login");
+        driver.navigate().to("https://demo.nopcommerce.com/");
         driver.manage().window().maximize();
 
 
