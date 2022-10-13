@@ -3,6 +3,7 @@ package WebPages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class P01_register {
 WebDriver Driver;
@@ -96,6 +97,17 @@ public void set_fname_And_lname(String fname , String lname)
         Email_tf().click();
         Email_tf().clear();
         Email_tf().sendKeys(email);
+
+    }
+
+    public void set_DOB()
+    {
+        Select DaySelect =new Select(Day_DOB());
+        DaySelect.selectByVisibleText("5");
+        Select MonthSelect =new Select(Month_DOB());
+        MonthSelect.selectByVisibleText("July");
+        Select YearSelect =new Select(Year_DOB());
+        YearSelect.selectByVisibleText("2000");
 
     }
     public void set_password(String password , String confirm)
