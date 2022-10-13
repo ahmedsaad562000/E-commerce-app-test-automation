@@ -63,6 +63,12 @@ public WebElement malecheckbox()
         By Password = By.id("Password");
         return Driver.findElement(Password);
     }
+    public WebElement success_msg()
+    {
+        By msg = By.cssSelector("div[class=\"result\"]");
+        return Driver.findElement(msg);
+        //Your registration completed
+    }
 
     public WebElement password_conf_tf()
     {
@@ -84,5 +90,23 @@ public void set_fname_And_lname(String fname , String lname)
     last_name_tf().sendKeys(lname);
 
 }
+
+    public void set_email(String email)
+    {
+        Email_tf().click();
+        Email_tf().clear();
+        Email_tf().sendKeys(email);
+
+    }
+    public void set_password(String password , String confirm)
+    {
+        password_tf().click();
+        password_tf().clear();
+        password_tf().sendKeys(password);
+        password_conf_tf().click();
+        password_conf_tf().clear();
+        password_conf_tf().sendKeys(confirm);
+
+    }
 
 }
