@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import WebPages.P02_login;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
+import org.openqa.selenium.support.Color;
 
 
 
@@ -41,7 +42,7 @@ public class D02_loginStepDef {
         }
         else
         {
-            login.enter_Email_And_Password(email, password);
+            login.enter_Email_And_Password(email, "psd");
         }
     }
 
@@ -75,11 +76,13 @@ public class D02_loginStepDef {
        // System.out.println(s);
         //soft.assertTrue(driver.getCurrentUrl().equals("https://demo.nopcommerce.com/login?returnUrl=%2F"));
         soft.assertTrue((asd.isDisplayed()));
+
+
+        String color_Hex_value = Color.fromString(asd.getCssValue("color")).asHex();
+
+        soft.assertTrue(color_Hex_value.equals("#e4434b"));
         soft.assertAll();
     }
-
-
-
 
 
 
