@@ -1,14 +1,13 @@
 package stepDefinitions;
 
 import WebPages.P01_register;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.ThreadLocalRandom;
@@ -64,12 +63,12 @@ public class D01_registerStepDef {
         register.set_DOB();
         Thread.sleep(1000);
     }
-    @And("^user enter email \"(.*)\" field$")
-    public void enter_email(String email) throws InterruptedException {
-        int int_random = ThreadLocalRandom.current().nextInt(0,1000);
-        String e_name = email.substring(0,4);
-        String e_host = email.substring(4,16);
-        email = e_name+int_random+e_host;
+    @And("^user enter \"(.*)\" email \"(.*)\" field$")
+    public void enter_email(String random , String email) throws InterruptedException {
+        if(random.equals("random")) {
+            int int_random = ThreadLocalRandom.current().nextInt(0, 1000);
+            email = "test" + int_random + "@example.com";
+        }
         register.set_email(email);
         Thread.sleep(1000);
     }
