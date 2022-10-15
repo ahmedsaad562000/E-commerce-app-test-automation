@@ -7,19 +7,6 @@
     <list default="true" id="d6c3e605-bb24-4477-989c-08bb838bbfe3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/testrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/testrunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cukes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cukes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/testrunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/testrunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
