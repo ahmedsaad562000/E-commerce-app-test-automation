@@ -4,7 +4,7 @@ import WebPages.P03_homePage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
 import org.testng.asserts.SoftAssert;
 
 public class D06_homeSlidersStepDef {

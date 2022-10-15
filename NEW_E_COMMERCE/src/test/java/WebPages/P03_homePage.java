@@ -101,13 +101,30 @@ public class P03_homePage {
        return driver.findElements(Images);
     }
 
-//    WebElement parent = myElement.findElement(By.xpath("./.."));
-//    div[id="nivo-slider"]>a[style ="display: block;"]
-//    div[id="nivo-slider"]>a>img[src="https://demo.nopcommerce.com/images/thumbs/0000079_banner_1.jpg"]
+    public List<WebElement> get_add_to_wishlist_buttons()
+    {
+        By WL_BtnS = By.cssSelector("div>div>div[class=\"add-info\"]>div>button[class=\"button-2 add-to-wishlist-button\"]");
+        return driver.findElements(WL_BtnS);
+    }
+    public WebElement get_WL_success_msg()
+    {
+        By WL_Success_msg = By.cssSelector("div[class=\"bar-notification success\"]");
+        return driver.findElement(WL_Success_msg);
+    }
 
-//    ul[class="top-menu notmobile"]>li
-//   ul[class="top-menu notmobile"]>li>ul>li>a
-    //div[class="page-title"]>h1
+    public WebElement get_WL_link()
+    {
+        By WL_Link= By.cssSelector("a[class=\"ico-wishlist\"]");
+        return driver.findElement(WL_Link);
+    }
+    public WebElement get_Qty_Element()
+    {
+        By Qty_Element= By.cssSelector("input[class=\"qty-input\"]");
+        return driver.findElement(Qty_Element);
+
+    }
+
+
 
 
 
