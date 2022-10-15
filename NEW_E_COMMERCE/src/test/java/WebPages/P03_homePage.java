@@ -95,6 +95,15 @@ public class P03_homePage {
         By pg_title = By.cssSelector("div[class=\"page-title\"]>h1");
         return driver.findElement(pg_title);
     }
+    public List<WebElement> getImagesElements(){
+
+       By Images =  By.cssSelector("div[id=\"nivo-slider\"]>a");
+       return driver.findElements(Images);
+    }
+
+//    WebElement parent = myElement.findElement(By.xpath("./.."));
+//    div[id="nivo-slider"]>a[style ="display: block;"]
+//    div[id="nivo-slider"]>a>img[src="https://demo.nopcommerce.com/images/thumbs/0000079_banner_1.jpg"]
 
 //    ul[class="top-menu notmobile"]>li
 //   ul[class="top-menu notmobile"]>li>ul>li>a

@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6c3e605-bb24-4477-989c-08bb838bbfe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D05_hoverCategoriesStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D06_homeSlidersStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebPages/P03_homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebPages/P03_homePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/D04_searchStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D04_searchStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F03_currencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F03_currencies.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F04_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F04_Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/WebPages/P03_homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebPages/P03_homePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/D04_searchStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/D04_searchStepDef.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +53,7 @@
       <recent name="D:\E-commerce app\NEW_E_COMMERCE\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: F05_hoverCategories">
-    <configuration name="Feature: F04_Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="NEW_E_COMMERCE" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F04_Search" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: second slider is clickable on home page">
     <configuration name="Feature: F05_hoverCategories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" />
@@ -86,26 +62,6 @@
       <module name="NEW_E_COMMERCE" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: F05_hoverCategories" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: User Search By Name" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="NEW_E_COMMERCE" />
-      <option name="NAME_FILTER" value="^User Search By Name$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User Search By Name$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User Search By Name" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -126,6 +82,46 @@
       <option name="NAME_FILTER" value="^User Search By sku$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User Search By sku$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: User Search By sku" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: first slider is clickable on home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="NEW_E_COMMERCE" />
+      <option name="NAME_FILTER" value="^first slider is clickable on home page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^first slider is clickable on home page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: first slider is clickable on home page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: second slider is clickable on home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="NEW_E_COMMERCE" />
+      <option name="NAME_FILTER" value="^second slider is clickable on home page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^second slider is clickable on home page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: second slider is clickable on home page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: second slider is clickable on home page" />
+        <item itemvalue="Cucumber Java.Scenario: first slider is clickable on home page" />
         <item itemvalue="Cucumber Java.Feature: F05_hoverCategories" />
         <item itemvalue="Cucumber Java.Scenario: select Random Category(Mandatory) and SubCategory(Optional)" />
         <item itemvalue="Cucumber Java.Scenario: User Search By sku" />
-        <item itemvalue="Cucumber Java.Scenario: User Search By Name" />
-        <item itemvalue="Cucumber Java.Feature: F04_Search" />
       </list>
     </recent_temporary>
   </component>
