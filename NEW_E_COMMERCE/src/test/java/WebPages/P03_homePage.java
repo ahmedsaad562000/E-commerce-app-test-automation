@@ -4,10 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class P03_homePage {
     WebDriver driver;
@@ -63,6 +64,41 @@ public class P03_homePage {
         return driver.findElement(sku);
     }
 
+
+    public List<WebElement> get_All_Categories()
+    {
+        By All_Categories = By.cssSelector("ul[class=\"top-menu notmobile\"]>li>a");
+        return driver.findElements(All_Categories);
+    }
+    public List<WebElement> get_sub_categories( int index) throws InterruptedException {
+        index = index+1;
+        String path = "(//ul[@class='top-menu notmobile']//ul)["+index+"]/li/a";
+        By sub_cat = By.xpath(path);
+
+
+//        WebElement we1 = Sub_Categories.get(1);
+//        System.out.println(we1.getAttribute("innerHTML"));
+
+        return driver.findElements(sub_cat);
+    }
+
+    public WebElement get_main_category_clickable(WebElement Category)
+    {
+        Category.getAccessibleName();
+        By Cat_name = By.cssSelector("a");
+        System.out.println(Category.findElement(Cat_name).getText());
+        return Category.findElement(Cat_name);
+    }
+
+    public WebElement get_page_title()
+    {
+        By pg_title = By.cssSelector("div[class=\"page-title\"]>h1");
+        return driver.findElement(pg_title);
+    }
+
+//    ul[class="top-menu notmobile"]>li
+//   ul[class="top-menu notmobile"]>li>ul>li>a
+    //div[class="page-title"]>h1
 
 
 

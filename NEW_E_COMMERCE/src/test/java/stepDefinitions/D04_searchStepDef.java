@@ -72,7 +72,6 @@ public class D04_searchStepDef {
     public void one_result_check() throws InterruptedException {
         count_results();
         Assert.assertEquals(search_results , 1);
-        int g = search_results;
     }
 
     @When("user clicks on this Product")
@@ -82,11 +81,14 @@ public class D04_searchStepDef {
         products.get(0).click();
     }
 
-    @Then("The product Serial number contains \"(.*)\"")
-    public void check_product_sku()
+    @Then("^The product Serial number contains \"(.*)\"$")
+    public void check_product_sku(String sku)
     {
-        List<WebElement> products =  homepage.search_results();
-        products.get(0).click();
+        WebElement product_sku =  homepage.get_product_sku();
+        String real_sku = product_sku.getText().toLowerCase();
+        Assert.assertTrue(real_sku.contains(sku.toLowerCase()));
     }
+
+
 
 }

@@ -18,7 +18,7 @@ Scenario Outline: User Search By sku
   Then user is directed to search results page
   And search shows one relevant Product
   When user clicks on this Product
-  Then results contains "<productSKU>"
+  Then The product Serial number contains "<productSKU>"
   Examples:
   | productSKU |
   | SCI_FAITH |

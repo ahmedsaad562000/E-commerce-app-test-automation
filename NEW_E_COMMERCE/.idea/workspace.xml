@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6c3e605-bb24-4477-989c-08bb838bbfe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebPages/P03_homePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D03_currenciesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D04_searchStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/features/F03_currencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/features/F04_Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/WebPages/P03_homePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/D03_currenciesStepDef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/D04_searchStepDef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D05_hoverCategoriesStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/D02_loginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D02_loginStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/F02_Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F02_Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/D02_loginStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/D02_loginStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebPages/P03_homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebPages/P03_homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/D04_searchStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D04_searchStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F03_currencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F03_currencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/F04_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/F04_Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebPages/P03_homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebPages/P03_homePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/D04_searchStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/D04_searchStepDef.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,26 +58,7 @@
       <recent name="D:\E-commerce app\NEW_E_COMMERCE\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User Search By Name">
-    <configuration name="Feature: F03_currencies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="NEW_E_COMMERCE" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: F03_currencies" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Feature: F05_hoverCategories">
     <configuration name="Feature: F04_Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" />
@@ -102,15 +78,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Change Currency" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: F05_hoverCategories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="NEW_E_COMMERCE" />
-      <option name="NAME_FILTER" value="^Change Currency$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Change Currency$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Change Currency" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F05_hoverCategories" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -162,13 +137,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: select Random Category(Mandatory) and SubCategory(Optional)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="NEW_E_COMMERCE" />
+      <option name="NAME_FILTER" value="^select Random Category\(Mandatory\) and SubCategory\(Optional\)$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^select Random Category\(Mandatory\) and SubCategory\(Optional\)$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: select Random Category(Mandatory) and SubCategory(Optional)" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: F05_hoverCategories" />
+        <item itemvalue="Cucumber Java.Scenario: select Random Category(Mandatory) and SubCategory(Optional)" />
+        <item itemvalue="Cucumber Java.Scenario: User Search By sku" />
         <item itemvalue="Cucumber Java.Scenario: User Search By Name" />
         <item itemvalue="Cucumber Java.Feature: F04_Search" />
-        <item itemvalue="Cucumber Java.Scenario: User Search By sku" />
-        <item itemvalue="Cucumber Java.Scenario: Change Currency" />
-        <item itemvalue="Cucumber Java.Feature: F03_currencies" />
       </list>
     </recent_temporary>
   </component>
@@ -198,23 +193,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/D04_searchStepDef.java</url>
-          <line>71</line>
-          <properties class="stepDefinitions.D04_searchStepDef" method="one_result_check">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/D04_searchStepDef.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="((RemoteWebElement)sub_categories.get(0)).foundBy" custom="org.openqa.selenium.remote.RemoteWebElement" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

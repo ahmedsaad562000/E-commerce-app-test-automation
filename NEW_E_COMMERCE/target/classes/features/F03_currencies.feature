@@ -1,5 +1,4 @@
 @smoke
-
 Feature: Get Familiar with findElements
 
   Scenario: Change Currency
