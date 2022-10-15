@@ -1,6 +1,6 @@
 @smoke
-  Feature: HoverCategories
-    Scenario: select Random Category
+  Feature: F05_Hover_Categories | user can select any Category and its SubCategory (if it exists)
+    Scenario: user select Random Category
     When User Selects a random Category
     And Check if it has SubCategories
     And User click on the selected Category or random SubCategory

@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6c3e605-bb24-4477-989c-08bb838bbfe3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/D07_followUsStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebPages/P03_homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebPages/P03_homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/testrunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/testrunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cukes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cukes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/testrunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/testrunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +47,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/E-commerce app/NEW_E_COMMERCE/src/main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/E-commerce app/NEW_E_COMMERCE/src/main",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\E-commerce app\NEW_E_COMMERCE\src\main" />
@@ -53,7 +64,7 @@
       <recent name="D:\E-commerce app\NEW_E_COMMERCE\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: user opens facebook link">
+  <component name="RunManager" selected="TestNG.testrunner">
     <configuration name="Feature: F07_followUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" />
@@ -92,46 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: add product to wishlist and check Qty" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="NEW_E_COMMERCE" />
-      <option name="NAME_FILTER" value="^add product to wishlist and check Qty$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^add product to wishlist and check Qty$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: add product to wishlist and check Qty" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: second slider is clickable on home page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" />
-      <option name="GLUE" value="stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="NEW_E_COMMERCE" />
-      <option name="NAME_FILTER" value="^second slider is clickable on home page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^second slider is clickable on home page$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: second slider is clickable on home page" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: user opens facebook link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" />
@@ -152,13 +123,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testrunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NEW_E_COMMERCE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.testrunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testrunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NEW_E_COMMERCE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.testrunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.testrunner" />
+        <item itemvalue="JUnit.testrunner" />
         <item itemvalue="Cucumber Java.Scenario: user opens facebook link" />
         <item itemvalue="Cucumber Java.Feature: F07_followUs" />
         <item itemvalue="Cucumber Java.Feature: F08_Wishlist" />
-        <item itemvalue="Cucumber Java.Scenario: add product to wishlist and check Qty" />
-        <item itemvalue="Cucumber Java.Scenario: second slider is clickable on home page" />
       </list>
     </recent_temporary>
   </component>

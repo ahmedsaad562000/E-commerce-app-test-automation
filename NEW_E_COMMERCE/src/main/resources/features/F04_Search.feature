@@ -1,5 +1,5 @@
 @smoke
-  Feature: user search
+  Feature: F04_Search | user can use search feature
 Scenario Outline: User Search By Name
   When user write "<productName>" in the Search Bar
   And clicks On Search Button

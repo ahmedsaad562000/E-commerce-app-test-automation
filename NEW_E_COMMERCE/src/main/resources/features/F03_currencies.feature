@@ -1,5 +1,5 @@
 @smoke
-Feature: Get Familiar with findElements
+Feature: F03_Currencies | user can change currency
 
   Scenario: Change Currency
   When user change currency to "Euro"

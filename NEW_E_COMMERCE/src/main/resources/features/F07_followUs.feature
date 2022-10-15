@@ -1,5 +1,5 @@
 @smoke
-Feature: F07_followUs | users could open followUs links
+Feature: F07_FollowUs | users could open followUs links
 
   Scenario: user opens facebook link
   When user clicks on "facebook" link

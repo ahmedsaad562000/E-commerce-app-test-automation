@@ -20,7 +20,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
                     <includes>
-                        <include>**/*runners.java</include> <!-- this should be the name of your runner class -->
+                        <include>**/*testrunner.java</include> <!-- this should be the name of your runner class -->
                     </includes>
                 </configuration>
             </plugin>
@@ -44,6 +44,8 @@
                             <jsonFiles>
                                 <param>**/cucumber*.json</param>
                             </jsonFiles>
+
+
                         </configuration>
                     </execution>
                 </executions>
@@ -97,12 +99,15 @@
             <scope>test</scope>
         </dependency>
 
+
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.8.8</version>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.3.4</version>
         </dependency>
+
+
 
 
     </dependencies>

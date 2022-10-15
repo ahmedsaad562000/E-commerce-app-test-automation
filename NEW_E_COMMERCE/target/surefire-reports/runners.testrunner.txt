@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: runners.testrunner
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 183.913 s <<< FAILURE! - in runners.testrunner
+runners.testrunner.runScenario  Time elapsed: 8.192 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Page Is Wrong expected [true] but found [false]
+
+runners.testrunner.runScenario  Time elapsed: 7.926 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Page Is Wrong expected [true] but found [false]
+
+runners.testrunner.runScenario  Time elapsed: 7.888 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+

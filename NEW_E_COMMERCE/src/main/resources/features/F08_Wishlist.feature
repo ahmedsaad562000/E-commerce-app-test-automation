@@ -1,5 +1,5 @@
 @smoke
-Feature: WishList
+Feature: F05_WishList | user can add featured products to WishList
   Background:
     When user clicks on wishlist button of item number 3
 
