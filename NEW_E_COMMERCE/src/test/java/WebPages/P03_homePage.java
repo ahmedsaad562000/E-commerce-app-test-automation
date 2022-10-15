@@ -124,6 +124,13 @@ public class P03_homePage {
 
     }
 
+    public List<WebElement> get_follow_us_links()
+    {
+        By Follow_us = By.cssSelector("ul[class=\"networks\"]>li>a");
+       return driver.findElements(Follow_us);
+
+    }
+
 
 
 
