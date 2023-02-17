@@ -10,7 +10,7 @@ Then tests results are generated in a neat report using Cucumber.
 <b>Test Results:</b>
 
 
-![alt text](https://ibb.co/G3MzDYX)
+![Screenshot](Test Results.png)
 
 
 <b>Usage:</b>
