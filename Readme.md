@@ -7,13 +7,13 @@ This program tests ALL FUNCTIONAL FEATURES of the website "https://www.nopcommer
 
 Then tests results are generated in a neat report using Cucumber.
  
-<h2><b>Test Results:</b></h2>
+<b>Test Results:</b>
 
 
 ![Test-Results](https://user-images.githubusercontent.com/76961547/219704574-ad92aedb-7ae7-47f7-925a-e5daaea27af8.png)
 
 
-<h2><b>Usage:</b><h2>
+<b>Usage:</b>
 
     1- install maven through cmd
 		
