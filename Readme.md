@@ -7,16 +7,16 @@ This program tests ALL FUNCTIONAL FEATURES of the website "https://www.nopcommer
 
 Then tests results are generated in a neat report using Cucumber.
  
-<b>Test Results:</b>
+<h2><b>Test Results:</b></h2>
 
 
 ![Test-Results](https://user-images.githubusercontent.com/76961547/219704574-ad92aedb-7ae7-47f7-925a-e5daaea27af8.png)
 
 
-<b>Usage:</b>
+<h2><b>Usage:</b><h2>
 
     1- install maven through cmd
 		
     2- Click on Run_Tests.sh" file
 	
-Note: You can see all generated reports in "\NEW_E_COMMERCE\target\cucumber-html-reports"
+<b>Note:</b> You can see all generated reports in "\NEW_E_COMMERCE\target\cucumber-html-reports"
