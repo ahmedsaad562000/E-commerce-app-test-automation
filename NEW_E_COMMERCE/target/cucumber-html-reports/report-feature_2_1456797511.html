@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>E-Commerce App Automation Testing</td>
         <td>1</td>
-      <td>17 Feb 2023, 17:46</td>
+      <td>02 Feb 2024, 08:51</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">F03_Currencies | user can change currency</td>
-          <td      class="passed"    >2</td>
-          <td >0</td>
+          <td      class="passed"    >1</td>
+          <td      class="failed"    >1</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">2</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="1721805600">1.721</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="662000000">0.662</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -175,7 +175,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name">F03_Currencies | user can change currency</span>
 
@@ -195,12 +195,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.721</span>
+  <span class="lead-duration duration">0.662</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Change Currency</span>
 
@@ -211,7 +211,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
   <div class="inner-level hooks-element-before">
@@ -233,7 +233,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">stepDefinitions.Hooks.OpenBrowser()</span>
 
-  <span class="lead-duration duration">1.719</span>
+  <span class="lead-duration duration">2.424</span>
 
           </div>
 
@@ -250,9 +250,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -262,7 +262,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -270,7 +270,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user change currency to &quot;<span class="argument">Euro</span>&quot;</span>
 
-  <span class="lead-duration duration">1.652</span>
+  <span class="lead-duration duration">0.615</span>
 
 </div>
 
@@ -293,11 +293,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">all shown products should contain the &quot;<span class="argument">&euro;</span>&quot; sign</span>
 
-  <span class="lead-duration duration">0.068</span>
+  <span class="lead-duration duration">0.047</span>
 
 </div>
 
@@ -305,6 +305,23 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>java.lang.AssertionError</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.D03_currenciesStepDef.check_products(D03_currenciesStepDef.java:41)
+	at &#10045;.all shown products should contain the &quot;&euro;&quot; sign(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F03_currencies.feature:6)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -324,7 +341,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -336,13 +353,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepDefinitions.Hooks.quitDriver()</span>
 
-  <span class="lead-duration duration">3.138</span>
+  <span class="lead-duration duration">3.800</span>
 
           </div>
 

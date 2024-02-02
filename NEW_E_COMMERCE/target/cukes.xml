@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="8" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="19" time="196.216">
+<testcase classname="F01_Register | users could register with new accounts" name="guest user could register with valid data successfully" time="16.364">
+<system-out><![CDATA[Given user go to register page..............................................passed
+When user select gender type "M"............................................passed
+And user enter first name "automation" and last name "tester"...............passed
+And user enter date of birth................................................passed
+And user enter "random" email "test@example.com" field......................passed
+And user fills Password fields "P@ssw0rd" "P@ssw0rd"........................passed
+And user clicks on register button..........................................passed
+Then success message is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Login | users could use login functionality to use their accounts" name="user could login with valid email and password" time="8.146">
+<failure message="The following asserts failed:&#10;&#9;expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user go to login page.................................................passed
+When user login with "valid" "test938@example.com" and "P@ssw0rd"...........passed
+And user press on login button..............................................passed
+Then user login to the system successfully..................................failed
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stepDefinitions.D02_loginStepDef.user_login_success(D02_loginStepDef.java:63)
+	at ✽.user login to the system successfully(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F02_Login.feature:12)
+]]></failure>
+</testcase>
+<testcase classname="F02_Login | users could use login functionality to use their accounts" name="user could login with invalid email and password" time="8.699">
+<system-out><![CDATA[Given user go to login page.................................................passed
+When user login with "invalid" "test938@example.com" and "Wrong P@ssw0rd"...passed
+And user press on login button..............................................passed
+Then user could not login to the system.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F03_Currencies | user can change currency" name="Change Currency" time="6.886">
+<failure message="" type="java.lang.AssertionError"><![CDATA[When user change currency to "Euro".........................................passed
+Then all shown products should contain the "€" sign.........................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.D03_currenciesStepDef.check_products(D03_currenciesStepDef.java:41)
+	at ✽.all shown products should contain the "€" sign(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F03_currencies.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="F04_Search | user can use search feature" name="User Search By Name" time="8.226">
+<failure message="The following asserts failed:&#10;&#9;expected [true] but found [false],&#10;&#9;expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[When user write "book" in the Search Bar....................................passed
+And clicks On Search Button.................................................passed
+Then user is directed to search results page................................passed
+And search page shows relevant results......................................passed
+And results contains "book".................................................failed
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stepDefinitions.D04_searchStepDef.check_results(D04_searchStepDef.java:69)
+	at ✽.results contains "book"(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F04_Search.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="F04_Search | user can use search feature" name="User Search By Name 2" time="7.434">
+<system-out><![CDATA[When user write "laptop" in the Search Bar..................................passed
+And clicks On Search Button.................................................passed
+Then user is directed to search results page................................passed
+And search page shows relevant results......................................passed
+And results contains "laptop"...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user can use search feature" name="User Search By Name 3" time="7.958">
+<system-out><![CDATA[When user write "nike" in the Search Bar....................................passed
+And clicks On Search Button.................................................passed
+Then user is directed to search results page................................passed
+And search page shows relevant results......................................passed
+And results contains "nike".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user can use search feature" name="User Search By sku" time="8.091">
+<system-out><![CDATA[When user write "SCI_FAITH" in the Search Bar...............................passed
+And clicks On Search Button.................................................passed
+Then user is directed to search results page................................passed
+And search shows one relevant Product.......................................passed
+When user clicks on this Product............................................passed
+Then The product Serial number contains "SCI_FAITH".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user can use search feature" name="User Search By sku 2" time="9.22">
+<system-out><![CDATA[When user write "APPLE_CAM" in the Search Bar...............................passed
+And clicks On Search Button.................................................passed
+Then user is directed to search results page................................passed
+And search shows one relevant Product.......................................passed
+When user clicks on this Product............................................passed
+Then The product Serial number contains "APPLE_CAM".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F04_Search | user can use search feature" name="User Search By sku 3" time="9.238">
+<system-out><![CDATA[When user write "SF_PRO_11" in the Search Bar...............................passed
+And clicks On Search Button.................................................passed
+Then user is directed to search results page................................passed
+And search shows one relevant Product.......................................passed
+When user clicks on this Product............................................passed
+Then The product Serial number contains "SF_PRO_11".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="F05_Hover_Categories | user can select any Category and its SubCategory (if it exists)" name="user select Random Category" time="10.994">
+<system-out><![CDATA[When User Selects a random Category.........................................passed
+And Check if it has SubCategories...........................................passed
+And User click on the selected Category or random SubCategory...............passed
+Then new page title contains the name of the selected Category or SubCategory.passed
+]]></system-out>
+</testcase>
+<testcase classname="F06_HomeSliders | user can select all HomeSliders" name="first slider is clickable on home page" time="8.55">
+<failure message="The following asserts failed:&#10;&#9;Page Is Wrong expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[When user Clicks on Slider number 1.........................................passed
+Then new page is opened with expected url "https://demo.nopcommerce.com/nokia-lumia-1020".failed
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	Page Is Wrong expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stepDefinitions.D06_homeSlidersStepDef.click_on_image(D06_homeSlidersStepDef.java:29)
+	at ✽.new page is opened with expected url "https://demo.nopcommerce.com/nokia-lumia-1020"(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F06_homeSliders.feature:5)
+]]></failure>
+</testcase>
+<testcase classname="F06_HomeSliders | user can select all HomeSliders" name="second slider is clickable on home page" time="8.108">
+<failure message="The following asserts failed:&#10;&#9;Page Is Wrong expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[When user Clicks on Slider number 2.........................................passed
+Then new page is opened with expected url "https://demo.nopcommerce.com/iphone-6".failed
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	Page Is Wrong expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stepDefinitions.D06_homeSlidersStepDef.click_on_image(D06_homeSlidersStepDef.java:29)
+	at ✽.new page is opened with expected url "https://demo.nopcommerce.com/iphone-6"(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F06_homeSliders.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="F07_FollowUs | users could open followUs links" name="user opens facebook link" time="9.432">
+<system-out><![CDATA[When user clicks on "facebook" link.........................................passed
+Then "https://www.facebook.com/nopCommerce" is opened in new tab............passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_FollowUs | users could open followUs links" name="user opens twitter link" time="9.805">
+<system-out><![CDATA[When user clicks on "twitter" link..........................................passed
+Then "https://twitter.com/nopCommerce" is opened in new tab.................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_FollowUs | users could open followUs links" name="user opens rss link" time="8.026">
+<failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[When user clicks on "rss" link..............................................passed
+Then "https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab.failed
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at stepDefinitions.D07_followUsStepDef.follow_us_link_opens(D07_followUsStepDef.java:57)
+	at ✽."https://demo.nopcommerce.com/new-online-store-is-open" is opened in new tab(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F07_followUs.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="F07_FollowUs | users could open followUs links" name="user opens youtube link" time="30.156">
+<system-out><![CDATA[When user clicks on "youtube" link..........................................passed
+Then "https://www.youtube.com/user/nopCommerce" is opened in new tab........passed
+]]></system-out>
+</testcase>
+<testcase classname="F05_WishList | user can add featured products to WishList" name="add product to wishlist" time="6.791">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div[class=&quot;bar-notification success&quot;]&quot;}&#10;  (Session info: chrome=121.0.6167.140)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ea40ca891a69e697adfea68420506719, findElement {using=css selector, value=div[class=&quot;bar-notification success&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\AHMED\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53508/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ea40ca891a69e697adfea68420506719" type="org.openqa.selenium.NoSuchElementException"><![CDATA[When user clicks on wishlist button of item number 3........................passed
+Then user will see success message with green background color..............failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class="bar-notification success"]"}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea40ca891a69e697adfea68420506719, findElement {using=css selector, value=div[class="bar-notification success"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\AHMED\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53508/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea40ca891a69e697adfea68420506719
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at WebPages.P03_homePage.get_WL_success_msg(P03_homePage.java:112)
+	at stepDefinitions.D08_WishlistStepDef.check_message(D08_WishlistStepDef.java:35)
+	at ✽.user will see success message with green background color(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F08_Wishlist.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="F05_WishList | user can add featured products to WishList" name="add product to wishlist and check Qty" time="13.732">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[class=&quot;qty-input&quot;]&quot;}&#10;  (Session info: chrome=121.0.6167.140)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [da62001e0df9123aedd4ebe197e4e013, findElement {using=css selector, value=input[class=&quot;qty-input&quot;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\AHMED\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53541/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: da62001e0df9123aedd4ebe197e4e013" type="org.openqa.selenium.NoSuchElementException"><![CDATA[When user clicks on wishlist button of item number 3........................passed
+And user clicks on Wishlist from top right of page..........................passed
+Then wishList Product Qty will be more than 0...............................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[class="qty-input"]"}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da62001e0df9123aedd4ebe197e4e013, findElement {using=css selector, value=input[class="qty-input"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\AHMED\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53541/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da62001e0df9123aedd4ebe197e4e013
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at WebPages.P03_homePage.get_Qty_Element(P03_homePage.java:123)
+	at stepDefinitions.D08_WishlistStepDef.check_Qty(D08_WishlistStepDef.java:50)
+	at ✽.wishList Product Qty will be more than 0(file:///D:/Testing%20ND/E-commerce%20app/NEW_E_COMMERCE/src/main/resources/features/F08_Wishlist.feature:12)
+]]></failure>
+</testcase>
+</testsuite>

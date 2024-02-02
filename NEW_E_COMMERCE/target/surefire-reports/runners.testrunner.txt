@@ -1,28 +1,55 @@
 -------------------------------------------------------------------------------
 Test set: runners.testrunner
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 157.688 s <<< FAILURE! - in runners.testrunner
-runners.testrunner.runScenario  Time elapsed: 7.959 s  <<< FAILURE!
+Tests run: 19, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 197.622 s <<< FAILURE! - in runners.testrunner
+runners.testrunner.runScenario  Time elapsed: 8.169 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [true] but found [false]
 
-runners.testrunner.runScenario  Time elapsed: 6.579 s  <<< FAILURE!
+runners.testrunner.runScenario  Time elapsed: 6.896 s  <<< FAILURE!
+java.lang.AssertionError
+
+runners.testrunner.runScenario  Time elapsed: 8.236 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [true] but found [false],
 	expected [true] but found [false]
 
-runners.testrunner.runScenario  Time elapsed: 7.243 s  <<< FAILURE!
+runners.testrunner.runScenario  Time elapsed: 8.555 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	Page Is Wrong expected [true] but found [false]
 
-runners.testrunner.runScenario  Time elapsed: 7.196 s  <<< FAILURE!
+runners.testrunner.runScenario  Time elapsed: 8.113 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	Page Is Wrong expected [true] but found [false]
 
-runners.testrunner.runScenario  Time elapsed: 7.193 s  <<< FAILURE!
-java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+runners.testrunner.runScenario  Time elapsed: 8.034 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+
+runners.testrunner.runScenario  Time elapsed: 6.799 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[class="bar-notification success"]"}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea40ca891a69e697adfea68420506719, findElement {using=css selector, value=div[class="bar-notification success"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\AHMED\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53508/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea40ca891a69e697adfea68420506719
+
+runners.testrunner.runScenario  Time elapsed: 13.742 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"input[class="qty-input"]"}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da62001e0df9123aedd4ebe197e4e013, findElement {using=css selector, value=input[class="qty-input"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\AHMED\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53541/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da62001e0df9123aedd4ebe197e4e013
 
